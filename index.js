@@ -1,8 +1,10 @@
 const Koa = require('koa');
 const Router = require('koa-router');
+const path = require('path');
 
 const app = new Koa();
 const router = new Router();
+const koaStatic = require('koa-static');
 
 router.get('/', (ctx) => {
   ctx.body = 'home page'
@@ -24,5 +26,7 @@ app.use(async (ctx, next) => {
 })
 
 app.use(router.routes());
+
+app.use(koaStatic(path.join(__dirname, 'public')))
 
 app.listen(3000);

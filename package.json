@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/yihuaxiang/koa-practice#readme",
   "dependencies": {
-    "koa-router": "^10.1.1"
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0"
   }
 }
