@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/yihuaxiang/koa-practice/issues"
   },
-  "homepage": "https://github.com/yihuaxiang/koa-practice#readme"
+  "homepage": "https://github.com/yihuaxiang/koa-practice#readme",
+  "dependencies": {
+    "koa-router": "^10.1.1"
+  }
 }
