@@ -1,0 +1,19 @@
+{
+  "name": "koa-practice",
+  "version": "1.0.0",
+  "description": "koa practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yihuaxiang/koa-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yihuaxiang/koa-practice/issues"
+  },
+  "homepage": "https://github.com/yihuaxiang/koa-practice#readme"
+}
